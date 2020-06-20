@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view_barlow"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <!-- THESE LAST TWO ARE TO PREVENT the activity from starting in the middle-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1100dp"
+        android:padding="8dp">
+
+        <!-- THE IMAGE MIPMAP HERE IS ONLY FOR THE DESIGN SECTION. IT WILL NOT BE USED WHEN RUNNING APP-->
+
+        <!--
+            maxLines will set how many lines you write in a text. Only 1 for small words
+            android:maxLines="1"
+        -->
+
+
+        <TextView
+            android:id="@+id/aNametxt_barlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Speed Demon"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aVersiontxt_barlow"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/aNametxt_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:focusable="false"
+            android:text="To get this one, you have to complete three laps in the Hoverbike Races in a time under 2:10. Attempt this in Challenge 3 as the shortcuts will be opened, which saves you around 3 seconds per lap, and the other racers won't attack you. If you take the shortcut on the right, you should get this trophy without too much trouble."
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_barlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aVersiontxt_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="22dp"
+            android:text="Completed" />
+
+        <TextView
+            android:id="@+id/aNametxt4_barlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox1_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginRight="86dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Platinum Bolts"
+            android:textSize="20sp" />
+
+        <VideoView
+            android:id="@+id/videoView_barlow"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/aNametxt4_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="94dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_barlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/videoView_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginLeft="106dp"
+            android:layout_marginTop="-44dp"
+            android:text="Completed" />
+
+        <VideoView
+            android:id="@+id/videoView2_barlow"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/checkBox3_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="94dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_barlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/videoView2_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="-66dp"
+            android:text="Completed" />
+
+
+        <Button
+            android:id="@+id/save_button_barlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox4_barlow"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginLeft="109dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/Save_Return" /><![CDATA[
+
+        " />
+
+
+    ]]>
+    </RelativeLayout>
+</ScrollView>

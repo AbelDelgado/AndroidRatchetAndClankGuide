@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <!-- All of the views have these two:
+
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+
+    because it allows them to be touched. If you don't have them, then anytime
+    you add a new view, NOTHING WILL BE ABLE TO use the listeners.
+    -->
+
+
+    <!-- THE IMAGE MIPMAP HERE IS ONLY FOR THE DESIGN SECTION. IT WILL NOT BE USED WHEN RUNNING APP-->
+    <ImageView
+        android:id="@+id/appIconIV"
+        android:src="@mipmap/umbris_foreground"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/aNametxt"
+        android:text="Android Name"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/appIconIV"
+        android:layout_toEndOf="@+id/appIconIV"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:id="@+id/aVersiontxt"
+        android:text="Android Version"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aNametxt"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt"
+
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+
+
+</RelativeLayout>

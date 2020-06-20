@@ -1,0 +1,213 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view_oozla"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <!-- THESE LAST TWO ARE TO PREVENT the activity from starting in the middle-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp"
+        android:padding="8dp">
+
+        <!-- THE IMAGE MIPMAP HERE IS ONLY FOR THE DESIGN SECTION. IT WILL NOT BE USED WHEN RUNNING APP-->
+
+
+        <CheckBox
+            android:id="@+id/checkBox3_oozla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="971dp"
+            android:text="Completed" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_oozla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="1252dp"
+            android:text="Completed" />
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/aNametxt4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="307dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="94dp" />
+
+        <TextView
+            android:id="@+id/aNametxt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="671dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Platinum Bolts"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aNametxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="325dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="More Vandalism?"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aVersiontxt3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/aNametxt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="315dp"
+            android:focusable="false"
+            android:text="Do this once you have the Box Breaker gadget. You must destroy everything inside the Megacorp Store. Just use the wrenches overhead smash every couple of steps and everything around you will smash to pieces. Before long, you will have a lot of bolts and this trophy."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/aNametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Prehistoric Rampage"
+            android:textSize="20sp" />
+        <!--
+            maxLines will set how many lines you write in a text. Only 1 for small words
+            android:maxLines="1"
+        -->
+
+        <TextView
+            android:id="@+id/aVersiontxt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/aNametxt"
+            android:focusable="false"
+            android:text="From your ship, simply look into the sky and shoot down the four pterodactyls with your Lancer or Pulse Rifle. This is the first possible trophy to earn in this game."
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="212dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            app:srcCompat="@mipmap/prehistoric_foreground" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_oozla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginLeft="109dp"
+            android:layout_marginTop="281dp"
+            android:text="Completed" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="270dp"
+            android:layout_height="292dp"
+
+            android:layout_below="@+id/aVersiontxt3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginBottom="42dp"
+            app:srcCompat="@mipmap/morevandelism_foreground" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_oozla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="626dp"
+            android:text="Completed" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/aNametxt4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="94dp" />
+
+        <Button
+            android:id="@+id/save_button_oozla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/videoView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="43dp"
+            android:text="@string/Save_Return" />
+        " />
+
+
+    </RelativeLayout>
+</ScrollView>

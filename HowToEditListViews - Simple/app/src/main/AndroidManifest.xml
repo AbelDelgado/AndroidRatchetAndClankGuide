@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abel.howtoeditlistviews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".OozlaTasks"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".MaktarTasks"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".BarlowTasks"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".EndakoTasks"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".NotakTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".SiberiusTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".TaboraTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".DobboTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".JobaTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".TodanoTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+
+        <activity
+            android:name=".BoldanTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".SnivelakTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".DamoselTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".GrelbinTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".GeneralTasks"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:label="@string/app_name">
+        </activity>
+
+
+
+
+
+
+
+
+    </application>
+
+
+
+</manifest>
+

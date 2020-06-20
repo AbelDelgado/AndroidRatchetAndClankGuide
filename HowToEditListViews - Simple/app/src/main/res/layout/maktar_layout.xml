@@ -1,0 +1,218 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view_maktar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <!-- THESE LAST TWO ARE TO PREVENT the activity from starting in the middle-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp"
+        android:padding="8dp">
+
+        <!-- THE IMAGE MIPMAP HERE IS ONLY FOR THE DESIGN SECTION. IT WILL NOT BE USED WHEN RUNNING APP-->
+
+        <TextView
+            android:id="@+id/aNametxt_maktar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Clank Needs a New Pair of Shoes"
+            android:textSize="20sp" />
+        <!--
+            maxLines will set how many lines you write in a text. Only 1 for small words
+            android:maxLines="1"
+        -->
+
+        <TextView
+            android:id="@+id/aVersiontxt_maktar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/aNametxt_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:focusable="false"
+            android:text="Scattered over the Maktar Resort are slot machines. Each slot has five symbols, one of them being the 'BAR' icon. To unlock this trophy, you need to get three bars. It will take a lot of tries, and you have the chance of destroying the machine in the progress if you hit 3 yellow rings. When you've finally got three BAR's, you will unlock this trophy along with 300 bolts."
+            android:textSize="14sp" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox1_maktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aVersiontxt_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="22dp"
+            android:text="Completed" />
+
+        <TextView
+            android:id="@+id/aNametxt3_maktar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox1_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Vandalize"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aVersiontxt3_maktar"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/aNametxt3_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:focusable="false"
+            android:text="You must destroy almost everything on this planet to get this Skill Point. This includes all lights, cameras, TV's, slot machines and everything in between. It is best to attempt this once you have the Box Breaker, as it will make this a lot easier, but it's still possible to get it without it. There are two paths leading from your ship that have breakables on them; to the right and left. Take both of those paths and destroy everything possible. Eventually you will earn the Skill Point."
+            android:textSize="14sp" />
+
+        <VideoView
+            android:id="@+id/videoView3_maktar"
+            android:layout_width="324dp"
+            android:layout_height="187dp"
+
+            android:layout_below="@+id/aVersiontxt3_maktar"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="42dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_maktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/videoView3_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="-27dp"
+            android:text="Completed" />
+
+        <TextView
+            android:id="@+id/aNametxt4_maktar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox2_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Platinum Bolts"
+            android:textSize="20sp" />
+
+        <VideoView
+            android:id="@+id/videoView_maktar"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/aNametxt4_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="94dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_maktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/videoView_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="-61dp"
+            android:text="Completed" />
+
+        <VideoView
+            android:id="@+id/videoView2_maktar"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/checkBox3_maktar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="94dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_maktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/videoView2_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="-68dp"
+            android:text="Completed" />
+
+
+        <Button
+            android:id="@+id/save_button_maktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox4_maktar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/Save_Return" />
+        " />
+
+
+    </RelativeLayout>
+</ScrollView>

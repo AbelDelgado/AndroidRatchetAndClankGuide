@@ -1,0 +1,411 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view_general"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1_global"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="That's Impossible!"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2_global"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='The "Impossible Challenge" appears in the Megacorp games once you have completed all other challenges. It is a 60 round challenge finishing with the Megapede boss in the final round. You will face tougher enemies the further you go, with the later rounds throwing out some serious baddies.  I highly recommend you attempt this right before defeating the Mutated Protopet/entering Challenge Mode. At that stage you should have a lot of Nanotech (max is best), some great armour (Carbonox preferably) and a lot of upgraded weapons. I suggest you have the Tesla Barrier, Megarocket Cannon, Heavy Bouncer, Mega-turret Glove, Kilonoids, Plasma Storm and Blitz Cannon upgraded as much as you can, as well as the upgraded wrench. ' />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox_global"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Completed" />
+        </RelativeLayout>
+
+        
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1_global1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrench Ninja: Blade to Blade"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2_global1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is easier than it sounds. You must defeat Chainblade using only the wrench. With a fully upgraded wrench (level 3, unmissable over the course of the game) you can kill Chainblade in seconds and he will not be able to strike back. Just run in and hit him and he will fall within 10 seconds.
+            Remember, you must use your wrench ONLY." />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/checkBox_global1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Completed" />
+            </RelativeLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1_global2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2B Hit or Not 2B Hit"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2_global2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='As the description states, you must defeat B2 Brawler without taking damage. Attempt this when you have some powerful weapons, as it will make this a walk in the park. There are several methods to do this, such as using mega-turrets, the R.Y.N.O II, the Zodiac, the Minirocket Tube, the Tetrabomb Gun or the Plasma Coil. Just fire away with any of those weapons and he will fall in seconds.
+' />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/checkBox_global2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Completed" />
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1_global3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nice Ride"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView2_global3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="To purchase items for your ship, you must exchange Raritanium at Slim Cognitos Ship Shack. The Ship Shack becomes available after you see the commercial for Slim Cognitos at Canal City, Notak. You will need a total of 290 Raritanium in order to purchase all upgrades."/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/checkBox_global3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Completed" />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView1_global4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="I Got Bolts to Trade "
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView2_global4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Note: This trophy has to be done in a single playthrough but you can use as many save slots as you wish.
+
+                            Collect 2 million bolts. After defeating the Mutated Protopet, the game will propose that you enter Challenge Mode, make sure you choose to play it. You will be at the start of the game again but you will have all the weapons, bolts, Skill Points, Platinum Bolts and Nanotech, as well as your Charge Boots, Mapper, Box Breaker and Armor Magnetizer that you earned from your first playthrough.
+
+                        There are a lot of changes made to Challenge Mode. Enemies are extremely strong, and you can now upgrade weapons to Mega and Ultra variations. Your main concern here though is the Bolt Multiplier. When you kill enemies in Challenge Mode, the Bolt Multiplier will go up. You can see the Bolt Multiplier in the top right corner of the screen. It will start at 1x, and the maximum it can reach is 20x. When youre hit by an enemy, the Multiplier will go back to 1x. If you can keep it at 20x you will earn huge amounts of bolts, making 2 million bolts a very achievable goal.
+                        "/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_global4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="Completed" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView1_global5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Now its time... "
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView2_global5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text='The R.Y.N.O. II is the best weapon in the game (and the best in the series in my opinion). It can be purchased at the Gadgetron Store on Planet Barlow for 1,000,000 bolts during your first playthrough, in Challenge Mode it is available at all vendors. You will most likely purchase this in Challenge Mode. To use it, simply hold down   to fire a volley of missiles at everything on the screen. It can defeat bosses with ease and kill normal enemies with one missile' />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <CheckBox
+                                    android:id="@+id/checkBox_global5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="Completed" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView1_global6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="BFG"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/textView2_global6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text='This is the so called "best weapon in the game". Once fired, the screen turns white and everything dies, which to me removes the fun from the game. Anyway, you can obtain this on Planet Aranos for 1,500,000 bolts in Challenge Mode. It only holds 4 ammo, and each refill costs 10,000 bolts!' />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <CheckBox
+                                        android:id="@+id/checkBox_global6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:text="Completed" />
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView1_global7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Yay Carbon "
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:id="@+id/textView2_global7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text='The Carbonox Armor is the best in the game, absorbing a massive 90% of all damage inflicted to it. It is obtained on Planet Grelbin for 1,000,000 bolts. I highly recommend you purchase this armour as soon as possible.' />
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <CheckBox
+                                            android:id="@+id/checkBox_global7"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerInParent="true"
+                                            android:text="Completed" />
+                                    </RelativeLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView1_global8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Nano To The Max"
+                                            android:textSize="18sp" />
+
+                                        <TextView
+                                            android:id="@+id/textView2_global8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text='For this you will have to fill in all 80 Nanotech slots. You start with 4, killing enemies throughout the game will get you another 66 of them, and the final 10 need to be found/collected. A great location to get Nanotech from enemies is the ice fields of Grelbin.
+The 10 Nanotech Upgrades that have to be found are in the spoiler below.
+' />
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <CheckBox
+                                                android:id="@+id/checkBox_global8"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:text="Completed" />
+                                        </RelativeLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/textView1_global9"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Destruction Time "
+                                                android:textSize="18sp" />
+
+                                            <TextView
+                                                android:id="@+id/textView2_global9"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text='This trophy is straightfoward and a lot of fun to achieve. You must obtain every weapon in the game and then upgrade each one once, so the weapon icon turns orange. These weapons can also be upgraded to Mega and then Ultra in challenge Mode, but that is not required for this trophy. To upgrade a weapon you must simply use it to defeat enemies. Below is the cost of each weapon and what it upgrades to:' />
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <CheckBox
+                                                    android:id="@+id/checkBox_global9"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_centerInParent="true"
+                                                    android:text="Completed" />
+                                            </RelativeLayout>
+
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/textView1_global10"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Museum Tour "
+                                                    android:textSize="18sp" />
+
+                                                <TextView
+                                                    android:id="@+id/textView2_global10"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text='way to enter the Museum is to simply select it via the Shortcuts menu once you have obtained all 30 Skill Points.' />
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <CheckBox
+                                                        android:id="@+id/checkBox_global10"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_centerInParent="true"
+                                                        android:text="Completed" />
+                                                </RelativeLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="vertical">
+
+
+
+                                                        <Button
+                                                            android:id="@+id/button_general"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_alignParentStart="true"
+                                                            android:layout_alignParentLeft="true"
+                                                            android:layout_alignParentBottom="true"
+                                                            android:layout_centerInParent="true"
+                                                            android:text="Save and Return" />
+
+
+
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+                                            
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    
+                                </LinearLayout>
+                                
+                            </LinearLayout>
+                            
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    
+                    
+                    
+                </LinearLayout>
+                
+                
+                
+
+            </LinearLayout>
+            
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

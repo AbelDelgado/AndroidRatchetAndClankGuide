@@ -1,0 +1,184 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view_endako"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <!-- THESE LAST TWO ARE TO PREVENT the activity from starting in the middle-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1100dp"
+        android:padding="8dp">
+
+        <!-- THE IMAGE MIPMAP HERE IS ONLY FOR THE DESIGN SECTION. IT WILL NOT BE USED WHEN RUNNING APP-->
+
+
+        <Button
+            android:id="@+id/save_button_endako"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox4_endako"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="181dp"
+            android:text="@string/Save_Return" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_endako"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/videoView3_endako"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="39dp"
+            android:text="Completed" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_endako"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/checkBox4_endako"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="15dp"
+            android:text="Bolt 1" />
+        <!--
+            maxLines will set how many lines you write in a text. Only 1 for small words
+            android:maxLines="1"
+        -->
+
+        <CheckBox
+            android:id="@+id/checkBox1_endako"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/videoView3_endako2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginLeft="106dp"
+            android:layout_marginTop="-42dp"
+            android:text="Completed" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox5_endako"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox3_endako"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="147dp"
+            android:layout_marginRight="147dp"
+            android:text="Bolt 2" />
+
+        <TextView
+            android:id="@+id/aNametxt_endako"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Destroy all breakables"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aVersiontxt_endako"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/aNametxt_endako"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:focusable="false"
+            android:text="Scattered over the endako Resort are slot machines. Each slot has five symbols, one of them being the 'BAR' icon. To unlock this trophy, you need to get three bars. It will take a lot of tries, and you have the chance of destroying the machine in the progress if you hit 3 yellow rings. When you've finally got three BAR's, you will unlock this trophy along with 300 bolts."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/aNametxt3_endako"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox1_endako"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="21dp"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="Operate Heavy Machinery"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aVersiontxt3_endako"
+            android:layout_width="263dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/aNametxt3_endako"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:focusable="false"
+            android:text="You have to kill 10 enemies with the cranes which is fairly simple to do. At the first crane, drop the block on all of the Sweeper Bots. Then at the second crane, pick up the Laser Bot in the first room and use his laser to take out all robots in this room. That should be 10 and will pop this trophy."
+            android:textSize="14sp" />
+
+        <VideoView
+            android:id="@+id/videoView3_endako2"
+            android:layout_width="324dp"
+            android:layout_height="187dp"
+
+            android:layout_below="@+id/aVersiontxt_endako"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginRight="67dp"
+            android:layout_marginBottom="42dp" />
+
+        <VideoView
+            android:id="@+id/videoView3_endako"
+            android:layout_width="324dp"
+            android:layout_height="187dp"
+
+            android:layout_below="@+id/aVersiontxt3_endako"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="42dp" />
+    </RelativeLayout>
+</ScrollView>
